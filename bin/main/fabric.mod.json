@@ -1,0 +1,38 @@
+{
+    "schemaVersion": 1,
+    "id": "modid",
+    "version": "${version}",
+
+    "name": "Mercury",
+    "description": "There is Mercury",
+    "authors": [
+        "MagicTea"
+    ],
+    "contact": {
+        "homepage": "https://github.com/MagicTeaMC/Mercury/",
+        "sources": "https://github.com/MagicTeaMC/Mercury"
+    },
+
+    "license": "apache-2.0",
+    "icon": "assets/modid/icon.png",
+
+    "environment": "*",
+    "entrypoints": {
+        "main": [
+            "net.fabricmc.example.ExampleMod"
+        ]
+    },
+    "mixins": [
+        "modid.mixins.json"
+    ],
+
+    "depends": {
+        "fabricloader": "<=0.12.0",
+        "fabric": "*",
+        "minecraft": "1.18.x",
+        "java": "=17"
+    },
+    "suggests": {
+        "another-mod": "*"
+    }
+}
