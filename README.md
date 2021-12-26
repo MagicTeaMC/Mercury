@@ -1,2 +1,2 @@
-##Mercury Mod
+## Mercury Mod
 A Minecraft Mod
